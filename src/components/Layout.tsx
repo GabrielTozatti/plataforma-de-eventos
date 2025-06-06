@@ -23,7 +23,7 @@ export default function Layout({ children }: LayoutProps) {
 const Container = styled.div`
   display: flex;
   min-height: 100vh;
-  background-color: ${({ theme }) => theme.colors.background};
+  background-color: #F4F6FA;
 `;
 
 const ContentArea = styled.div`
@@ -35,5 +35,5 @@ const ContentArea = styled.div`
 const MainContent = styled.main`
   flex: 1;
     padding: 0 32px 16px 32px;
-  background-color: ${({ theme }) => theme.colors.input_background};
+  background-color: #f8f8f8;
 `;

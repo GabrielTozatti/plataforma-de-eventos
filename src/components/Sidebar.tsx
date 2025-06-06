@@ -93,8 +93,8 @@ export default function Sidebar() {
 
 const Container = styled.aside`
   width: 240px;
-  background-color: ${({ theme }) => theme.colors.white};
-  color: ${({ theme }) => theme.colors.text};
+  background-color: #FFFFFF;
+  color: #CB6330;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -103,7 +103,7 @@ const Container = styled.aside`
 
 const Nav = styled.nav`
   span {
-    color: ${({ theme }) => theme.colors.gray};
+    color: #657593;
     font-size: 10px;
     font-weight: 800;
     line-height: 15px;
@@ -130,8 +130,8 @@ const Menu = styled.ul`
 
 const MenuItem = styled.li<{ $active?: boolean }>`
   cursor: ${({ $active }) => $active ? 'pointer' : 'default'};;
-  color: ${({ $active, theme }) => $active ? theme.colors.white : theme.colors.text};
-  background-color: ${({ $active, theme }) => $active ? theme.colors.primary : theme.colors.white};
+  color: ${({ $active }) => $active ? '#FFFFFF' : '#CB6330'};
+  background-color: ${({ $active }) => $active ? '#CB6330' : '#FFFFFF'};
   font-weight: 500;
   border-radius: 5px;
   transition: 0.2s;
@@ -185,7 +185,7 @@ const UserProfile = styled.div`
     margin: 0 auto;
     padding: 3px;
     background-color: transparent;
-    border: 1px solid ${({ theme }) => theme.colors.primary};
+    border: 1px solid #CB6330;
     border-radius: 36%;
     top: 46%;
     left: 50%;
@@ -207,7 +207,7 @@ const UserInfo = styled.div`
     font-size: 11px;
     font-weight: 400;
     line-height: 15px;
-    color: ${({ theme }) => theme.colors.light_balck_50};
+    color: #00000080;
   }
 `;
 
@@ -226,7 +226,7 @@ const FooterButton = styled.button`
     font-weight: 700;
     font-size: 14px;
     line-height: 15px;
-    color: ${({ theme }) => theme.colors.text};
+    color: #CB6330;
   }
     
   &:hover {

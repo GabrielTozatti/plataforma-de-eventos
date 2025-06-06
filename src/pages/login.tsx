@@ -29,7 +29,7 @@ export default function LoginPage() {
 
 const Container = styled.main`
   min-height: 100vh;
-  background-color: ${({ theme }) => theme.colors.background};
+  background-color: #F4F6FA;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@ const Container = styled.main`
 `;
 
 const Card = styled.div`
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: #FFFFFF;
   border-radius: 20px;
   display: flex;
   width: 100%;
@@ -57,7 +57,7 @@ const LeftContent = styled.div`
 
 const RightContent = styled.div`
     flex: 1;
-    background-color: ${({ theme }) => theme.colors.primary};
+    background-color: #CB6330;
     position: relative;
     margin: 10px;
     border-radius: 20px;

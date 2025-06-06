@@ -81,7 +81,7 @@ const FormContainer = styled.form`
   padding-right: 30px;
 
   h2 {
-    color: ${({ theme }) => theme.colors.primary};
+    color: #CB6330;
     font-weight: 700;
     font-size: 26px;
     line-height: 15px;
@@ -90,14 +90,14 @@ const FormContainer = styled.form`
   }
 
   p {
-    color: ${({ theme }) => theme.colors.light_grey_50};
+    color: #2A4D8E80;
     font-weight: 400;
     font-size: 13px;
     margin-bottom: 35px;
   }
 
   label {
-    color: ${({ theme }) => theme.colors.primary};
+    color: #CB6330;
     font-weight: 600;
     font-size: 13px;
     line-height: 15px;
@@ -110,19 +110,19 @@ const Input = styled.input`
   border-radius: 100px;
   border: none;
   outline: none;
-  background-color: ${({ theme }) => theme.colors.input_background};
+  background-color: #f8f8f8;
   width: 100%;
   font-size: 11px;
   font-weight: 400;
   line-height: 15px;
-  color: ${({ theme }) => theme.colors.light_grey};
+  color: #657593;
   margin-bottom: 20px;
     
   &::placeholder {
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
-    color: ${({ theme }) => theme.colors.light_grey};
+    color: #657593;
     opacity: 1;
   },
 `;
@@ -143,8 +143,8 @@ const ToggleButton = styled.button`
 const Button = styled.button`
   padding: 12px 25px;
   border-radius: 2rem;
-  background-color: ${({ theme }) => theme.colors.primary};
-  color: ${({ theme }) => theme.colors.white};
+  background-color: #CB6330;
+  color: #FFFFFF;
   font-weight: 500;
   font-size: 13px;
   border: none;

@@ -210,7 +210,7 @@ export default function EventTable() {
 }
 
 const Card = styled.div`
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: #FFFFFF;
   border-radius: 12px;
   box-shadow: 0px 4px 20px #0000000a;
   padding: 1.5rem;
@@ -246,7 +246,7 @@ const SearchInput = styled.input`
   font-size: 13px;
   font-weight: 500;
   line-height: 15px;
-  color:${({ theme }) => theme.colors.text};
+  color:#CB6330;
     
   &::placeholder {
     font-size: 13px;
@@ -257,8 +257,8 @@ const SearchInput = styled.input`
 `;
 
 const NewButton = styled.button`
-  background: ${({ theme }) => theme.colors.primary};
-  color: ${({ theme }) => theme.colors.white};
+  background: #CB6330;
+  color: #FFFFFF;
   border: none;
   border-radius: 33px;
   padding: 15px 30px;
@@ -294,7 +294,7 @@ const Table = styled.table`
   }
 
   td {
-    color: ${({ theme }) => theme.colors.light_grey};
+    color: #657593;
     font-size: 0.92rem;
     border-top: 1px solid #CC623780;
   }
@@ -317,7 +317,7 @@ const MoreButton = styled.button`
   background: none;
   border: none;
   cursor: pointer;
-  color: ${({ theme }) => theme.colors.primary};
+  color: #CB6330;
   display: flex;
   align-items: center;
 `;
@@ -332,13 +332,13 @@ const PaginationWrapper = styled.div`
 `;
 
 const PageButtonNext = styled.button`
-  background: ${({ theme }) => theme.colors.primary};
+  background: #CB6330;
   border: none;
   border-radius: 200px;
   padding: 10px 16px;
   cursor: pointer;
   font-size: 0.9rem;
-  color: ${({ theme }) => theme.colors.white};
+  color: #FFFFFF;
 
   &:disabled {
     opacity: 0.4;
@@ -353,7 +353,7 @@ const PageButtonLast = styled.button`
   padding: 10px 16px;
   cursor: pointer;
   font-size: 0.9rem;
-  color: ${({ theme }) => theme.colors.text};
+  color: #CB6330;
 
   &:disabled {
     opacity: 0.7;
@@ -362,9 +362,9 @@ const PageButtonLast = styled.button`
 `;
 
 const PageNumber = styled.button<{ active?: boolean }>`
-  background: ${({ active, theme }) =>
-  active ? theme.colors.primary : '#f4f4f4'};
-  color: ${({ active, theme }) => (active ? theme.colors.white : theme.colors.text)};
+  background: ${({ active }) =>
+  active ? '#CB6330' : '#f4f4f4'};
+  color: ${({ active }) => (active ? '#FFFFFF' : '#CB6330')};
   border: none;
   border-radius: 50%;
   width: 35px;
