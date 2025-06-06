@@ -21,6 +21,6 @@ const Title = styled.h1`
   color: #00000099;
     
   strong {
-      color: #CB6330;
+      color: #252525;
   }
 `;
