@@ -130,7 +130,7 @@ const Menu = styled.ul`
 
 const MenuItem = styled.li<{ $active?: boolean }>`
   cursor: ${({ $active }) => $active ? 'pointer' : 'default'};;
-  color: ${({ $active }) => $active ? '#FFFFFF' : '#CB6330'};
+  color: ${({ $active }) => $active ? '#FFFFFF' : '#252525'};
   background-color: ${({ $active }) => $active ? '#CB6330' : '#FFFFFF'};
   font-weight: 500;
   border-radius: 5px;
@@ -197,6 +197,7 @@ const UserInfo = styled.div`
   margin-left: 10px;;
   font-size: 14px;
   font-weight: 500;
+  color: #252525;
 
   strong {
     display: block;
@@ -226,7 +227,7 @@ const FooterButton = styled.button`
     font-weight: 700;
     font-size: 14px;
     line-height: 15px;
-    color: #CB6330;
+    color: #252525;
   }
     
   &:hover {

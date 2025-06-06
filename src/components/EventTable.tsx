@@ -246,7 +246,7 @@ const SearchInput = styled.input`
   font-size: 13px;
   font-weight: 500;
   line-height: 15px;
-  color:#CB6330;
+  color:gray;
     
   &::placeholder {
     font-size: 13px;
@@ -353,7 +353,7 @@ const PageButtonLast = styled.button`
   padding: 10px 16px;
   cursor: pointer;
   font-size: 0.9rem;
-  color: #CB6330;
+  color: #252525;
 
   &:disabled {
     opacity: 0.7;
@@ -364,7 +364,7 @@ const PageButtonLast = styled.button`
 const PageNumber = styled.button<{ active?: boolean }>`
   background: ${({ active }) =>
   active ? '#CB6330' : '#f4f4f4'};
-  color: ${({ active }) => (active ? '#FFFFFF' : '#CB6330')};
+  color: ${({ active }) => (active ? '#FFFFFF' : '#252525')};
   border: none;
   border-radius: 50%;
   width: 35px;
