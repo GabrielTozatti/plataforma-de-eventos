@@ -58,10 +58,13 @@ export default function EventTable() {
 
     switch (action) {
       case 'visualizar':
+        console.log(`Visualizar ${id}`);
         break;
       case 'editar':
+        console.log(`editar ${id}`);
         break;
       case 'remover':
+        console.log(`remover ${id}`);
         break;
     }
   };
