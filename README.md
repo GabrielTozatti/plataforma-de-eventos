@@ -1,40 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🧠 Plataforma de Gestão de Eventos
 
-## Getting Started
+Este projeto é um painel administrativo desenvolvido com **Next.js** e **Styled Components**, com foco em organização, visual moderno e responsividade. Ideal para gerenciamento de eventos, com funcionalidades de login, listagem, busca e ações.
 
-First, run the development server:
+> Este projeto foi desenvolvido como parte do **processo seletivo da Tropa Digital** para a vaga de Desenvolvedor(a) Frontend.
+---
 
+## 🚀 Tecnologias utilizadas
+
+- [Next.js](https://nextjs.org/) – React Framework
+- [Styled Components](https://styled-components.com/) – CSS-in-JS
+- [TypeScript](https://www.typescriptlang.org/) – Tipagem estática
+- [ESLint + Prettier](https://eslint.org/) – Padrão de código
+
+---
+
+## 📁 Estrutura de Pastas
+
+````
+├── /pages
+│ ├── index.tsx → Tela principal
+│ ├── login.tsx → Tela de Login
+│ └── eventos.tsx → Listagem de eventos
+│
+├── /components
+│ ├── LoginForm.tsx
+│ ├── Layout.tsx
+│ ├── Header.tsx
+│ ├── Sidebar.tsx
+│ ├── EventTable.tsx
+│ ├── DropdownMenu.tsx
+│ └── Pagination.tsx
+│
+├── /assets → Imagens e ícones
+├── /styles → Tema e estilos globais
+````
+
+---
+
+## 💻 Funcionalidades
+
+- ✅ Login com layout responsivo
+- ✅ Sidebar com navegação entre páginas
+- ✅ Header com saudação ao usuário
+- ✅ Tabela de eventos com:
+    - 🔍 Campo de busca funcional
+    - ➕ Botão "Inserir novo"
+    - 📄 Menu de ações: Visualizar, Editar, Remover
+    - 🔁 Paginação simulada
+- ✅ Layout responsivo
+- ✅ Tema com `styled-components`
+
+---
+
+## 🧪 Como rodar o projeto
+
+1. **Clone o repositório**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/seu-projeto.git
+cd seu-projeto
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Instale as dependências**
+```bash
+npm install
+# ou
+yarn
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. **Execute o servidor de desenvolvimento**
+```bash
+npm run dev
+# ou
+yarn dev
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+4. **Gere o build de produção**
+```bash
+npm run build
+npm start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 👨‍💻 Desenvolvedor
+Gabriel Tozatti
+[LinkedIn](https://www.linkedin.com/in/gabriel-tozatti/) • [GitHub](https://github.com/GabrielTozatti)
